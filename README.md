@@ -1,29 +1,16 @@
-## Fernanda Aparecida Ferreira
+# Fernanda Aparecida Ferreira
 
-You can use the [editor on GitHub](https://github.com/fromnanda/fromnanda.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Atualmente trabalho com Desenvolvimento de Software na [AMEnergia](http://www.amenergia.com.br), uma empresa com soluções para o gerenciamento de energia elétrica, visando a redução dos custos. 
+Sou responsável pela extração e inserção dos dados em grande escala das faturas de energia através do desenvolvimento de software, além de também programar toda a automação dos downloads das faturas. Através desses processos, conseguimos cadastrar faturas para grandes clientes, como a Claro S.A., que possui unidades no Brasil inteiro.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+# Experiência Profissional
+## AMEnergia - Desenvolvimento PHP
 ```markdown
-Syntax highlighted code block
+- Web Scraping
+- OCR (Reconhecimento Óptico de Caracteres)
+- PHP e MySQL
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
