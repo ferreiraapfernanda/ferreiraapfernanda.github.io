@@ -14,11 +14,12 @@ Sou responsável pela extração e inserção dos dados em grande escala das fat
 
 ## Habilidades
 
-- a
-- b
-- c
-- d
-- e
+- Desenvolvimento em PHP
+- HTML
+- CSS
+- Git
+- MySQL
+- Java
 
 ## Experiências Profissionais
 
