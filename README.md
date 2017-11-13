@@ -42,14 +42,13 @@ __Tecnóloga em Análise e Desenvolvimento de Sistemas__ - FATEC Sorocaba / Jane
 > - Maratona de Programação: Competição InterFatecs 2015
 
 ## Cursos
-__Carreira Iniciante Back-end PHP__
-> - HTTP: Entendendo a web por baixo dos panos - Alura
-> - PHP e MySQL I: Fundamentos para criar um sistema na Web - Alura
-> - PHP e MySQL II: Cookies, sessões e mais recursos - Alura
-> - MySQL I: Iniciando suas consultas - Alura
-> - PHP I: Orientação a objetos com sua linguagem preferida - Alura
-> - PHP II: Avançando com Orientação a objetos - Alura
-
+- __Carreira Iniciante Back-end PHP__
+  - HTTP: Entendendo a web por baixo dos panos - Alura
+  - PHP e MySQL I: Fundamentos para criar um sistema na Web - Alura
+  - PHP e MySQL II: Cookies, sessões e mais recursos - Alura
+  - MySQL I: Iniciando suas consultas - Alura
+  - PHP I: Orientação a objetos com sua linguagem preferida - Alura
+  - PHP II: Avançando com Orientação a objetos - Alura
 - Git: Controle e compartilhe seu código - Alura
 - Windows: Introdução ao Prompt - Alura
 - Java I: Primeiros passos - Alura
