@@ -60,6 +60,7 @@ __Tecnóloga em Análise e Desenvolvimento de Sistemas__ - FATEC Sorocaba / Jane
 - Windows: Introdução ao Prompt - Alura
 - Java I: Primeiros passos - Alura
 - Java II: Orientação a Objetos - Alura
+- Java III: Principais APIs e Bibliotecas - Alura
 
 ## Projetos
 
