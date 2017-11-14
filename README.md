@@ -19,7 +19,9 @@ Sou responsável pela extração e inserção dos dados em grande escala das fat
 - CSS
 - Git
 - MySQL
-- Java
+- Java EE
+- Android
+- Firebase
 
 ## Experiências Profissionais
 
@@ -29,7 +31,7 @@ __Assistente de Desenvolvimento de Software__- AMEnergia / Fevereiro 2017 - pres
 > - OCR (Reconhecimento Óptico de Caracteres) 
 > - Desenvolvimento PHP com banco de dados MySQL
 
-__Estagiária de Suporte Computacional__ - UFSCar Sorocaba / 
+__Estagiária de Suporte Computacional__ - UFSCar Sorocaba / Março 2016 - Dezembro 2016
 > Responsável pela manutenção de computadores, auxílio na montagem e documentação de rede física, formatação e instalação de aplicações e  suporte para a área administrativa e laboratórios de informática. 
 > - Documentação de Rede Física
 > - Manutenção de Computadores
@@ -38,6 +40,10 @@ __Estagiária de Suporte Computacional__ - UFSCar Sorocaba /
 ## Formação Acadêmica
 
 __Tecnóloga em Análise e Desenvolvimento de Sistemas__ - FATEC Sorocaba / Janeiro 2014 - Dezembro 2016
+> **Trabalho de Graduação**
+> NetNode
+> - Aplicação Móvel Android para Ensino de Redes de Computadores
+
 > **Atividades Extracurrículares**
 > - Monitoria de Inglês Instrumental: Colaborei na monitoria da disciplina, dando auxílio à todos os alunos da Instituição. Com essa experiência, pude me aprofundar em um dos tópicos que encontro dificuldade: a escrita em inglês.
 > - Maratona de Programação: Competição InterFatecs 2015
