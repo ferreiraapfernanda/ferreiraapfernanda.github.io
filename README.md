@@ -56,11 +56,13 @@ __Tecnóloga em Análise e Desenvolvimento de Sistemas__ - FATEC Sorocaba / Jane
   - MySQL I: Iniciando suas consultas - Alura
   - PHP I: Orientação a objetos com sua linguagem preferida - Alura
   - PHP II: Avançando com Orientação a objetos - Alura
+- __Carreira Desenvolvedor Java__
+  - Java I: Primeiros passos - Alura
+  - Java II: Orientação a Objetos - Alura
+  - Java III: Principais APIs e Bibliotecas - Alura
+  - Java: Dominando as Collections - Alura
+  - Java 8: Tire proveito dos novos recursos da linguagem - Alura
 - Git: Controle e compartilhe seu código - Alura
 - Windows: Introdução ao Prompt - Alura
-- Java I: Primeiros passos - Alura
-- Java II: Orientação a Objetos - Alura
-- Java III: Principais APIs e Bibliotecas - Alura
 
 ## Projetos
-
