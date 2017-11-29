@@ -62,6 +62,10 @@ body {
  * Header
  */
 
+ header {
+     background-color: red;
+ }
+
 .masthead {
   margin-bottom: 2rem;
 }
