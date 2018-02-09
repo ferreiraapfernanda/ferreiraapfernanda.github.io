@@ -2,10 +2,9 @@
  * Demo Styles
  */
 
- html {
+html {
   height: 100%;
   box-sizing: border-box;
-  
 }
 
 a,
@@ -27,12 +26,23 @@ body {
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: justify;
 }
 
 h1 {
-  letter-spacing: 2.5px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+h2,
+h3 {
+  font-weight: 600;
+}
+
+.role {
+  font-size: 250%;
+  color: rgb(209, 209, 209);
 }
 
 .navbar {
@@ -50,13 +60,33 @@ h1 {
   margin-top: 0;
 }
 
-.col-md-6 {
-  padding: 0;
-  float: left;
+p {
+  font-size: 1.25rem;
 }
 
-.right{
-  padding-right: 15px;
+.content {
+  padding-top: 2rem;
+}
+
+
+.demo a {
+  color: white;
+  background-color: deeppink;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 16px;
+}
+
+span {
+  margin-left: 10px;
+}
+
+#main-skills {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  letter-spacing: 0.5px;
 }
 
 /**
@@ -70,5 +100,9 @@ h1 {
   left: 0;
   padding: 2.5rem;
   text-align: center;
-  color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, .5);
+}
+
+.footer a {
+  margin-right: 10px;
 }
