@@ -1,0 +1,172 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #0fb8ad;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #3f3f3f;
+  text-shadow: 0 .05rem .1rem rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 5rem rgba(255, 255, 255, 0.5);
+}
+
+h1, h2, h3, h4, h5 ,h6{
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.cover-container {
+  max-width: 50em;
+}
+
+
+.content-link {
+  letter-spacing: 0.2rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.content-link:hover {
+  font-weight: bolder;
+  color: #fff;
+  text-decoration: unset;
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+.about-link {
+  margin-top: 5rem;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.main-link {
+  letter-spacing: 0.2rem;
+  padding: 0.5rem;
+  margin: 0.4rem;
+  padding: 0.5rem 1rem;
+  font-weight: lighter;
+}
+
+.main-link:hover {
+  color: #fff;
+  text-decoration: unset;
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  border-radius: .25rem!important;
+}
+
+.tech-row {
+  margin-top: 2rem;
+}
+
+.tech-row h2 {
+  margin-bottom: 1.5rem;
+}
+
+
+.btn {
+  background: #1fc8db;
+  border: none;
+  color: #FFF;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  color: #fff;
+}
+
+/*
+ * Header
+ */
+.masthead {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #1fc8db;
+  
+}
+
+.main-title{
+  font-size: 4rem;
+}
+
+/*
+ * Cover
+ */
+
+
+.cover {
+  padding: 0 1.5rem;
+}
+
+.lead {
+  font-size: 1.8rem;
+}
+
+mark {
+  padding: .08em;
+  background-color: #1fc8db79;
+}
+
+.content-cell {
+  margin-bottom: 2px;
+  margin: 25% 0;
+}
+
+.content-cell-first{
+  margin-top: 15%;
+}
+
+.content-title {
+  margin-bottom: 3rem;
+  color: #0fb8ad;
+}
+
+.content-body {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+
+hr {
+  margin: 1px 0;
+}
+
+.two-collumn {
+  -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+}
+

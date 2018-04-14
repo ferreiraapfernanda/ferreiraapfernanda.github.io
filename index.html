@@ -1,89 +1,335 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Fernanda Aparecida Ferreira</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-        crossorigin="anonymous">
 
-    <link href="git-io.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400i|Quicksand" rel="stylesheet">
 
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <title>Fernanda Aparecida Ferreira</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+
+    // Select all links with hashes
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+
+  </script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+    crossorigin="anonymous">
 
 </head>
 
-<body>
+<body class="text-center">
 
-    <nav class="navbar navbar-expand navbar-dark">
-        <a class="navbar-brand" href="index.html">FA</a>
+  <div id="top" class="cover-container d-flex p-3 mx-auto flex-column">
 
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Inicio
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="experience.html">Experiências</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="skills.html">Habilidades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="resume.html">Currículo</a>
-                </li>
-            </ul>
+    <header class="masthead mb-auto">
+      <h1 class="main-title">Fernanda Aparecida</h1>
+    </header>
+
+    <div class="content-cell content-cell-first">
+      <main role="main" class="cover">
+        <p class="lead">Fernanda Aparecida Ferreira, 22 anos, Sorocaba.</p>
+        <p class="lead">Desenvolvedora de Software, graduada em
+          <mark>Análise e Desenvolvimento de Sistemas</mark>, atualmente cursando pós graduação em
+          <mark>Tecnologias e Inovações Web.</mark>
+        </p>
+
+        <div class="tech-row">
+          <h2>Trabalhando com</h2>
         </div>
-    </nav>
+        <div class="d-flex flex-row justify-content-between">
+          <div class="p-3 rounded">
+            <button class="button btn btn-php">
+              <i class="fab fa-3x fa-php"></i>
+              <BR> PHP
+            </button>
+          </div>
+          <div class="p-3 rounded">
+            <button class="button btn btn-desktop">
+              <i class="fa fa-3x fa-desktop"></i>
+              <BR> Web Scraping
+            </button>
+          </div>
+          <div class="p-3 rounded">
+            <button class="button btn btn-laravel">
+              <i class="fab fa-3x fa-laravel"></i>
+              <br> Laravel
+            </button>
+          </div>
+        </div>
 
-
-    <div class="demo">
-        <h1 class="display-2">Fernanda Aparecida</h1>
-
-        <h1 class="role">Desenvolvedora PHP</h1>
-
+        <div class="about-link">
+          <a href="#about" class="main-link display-4">&blacktriangledown;</a>
+        </div>
+      </main>
 
     </div>
 
+    <hr>
 
-    <div class="footer">
-        Fernanda @ Sorocaba
+    <div id="about" class="content-cell">
+
+      <h2 class="display-2 content-title">Sobre mim </h2>
+
+      <article class="content-body text-justify">
+
+
+      </article>
+
+      <a href="#carrer" class="main-link display-4">&blacktriangledown;</a>
+
+    </div>
+
+    <hr>
+
+    <div id="carrer" class="content-cell">
+
+      <h2 class="display-2 content-title">Experiências Profissionais </h2>
+
+      <article class="content-body text-justify">
+        <h3>Assistente de Desenvolvimento de Software</h3>
+        <p class="lead">AMEnergia, Sorocaba
+          <small class="text-muted">(Janeiro/2017 - presente)</small>
+        </p>
+        <p>Atualmente trabalho com Desenvolvimento de Software na
+          <mark>AMEnergia</mark>, uma empresa com soluções para o gerenciamento de energia elétrica, visando a redução dos custos.</p>
+
+        <p>Sou responsável pela extração e inserção dos dados em grande escala das faturas de energia desenvolvendo aplicações
+          para a extração de informações de websites, através de técnicas e softwares de
+          <mark>automação de browser e extração de dados</mark>, a fim de manter um banco de dados atualizado com todas as informações
+          importantes das faturas. Através desses processos, conseguimos manter um banco atualizado com faturas de grandes clientes,
+          como a
+          <mark>Claro S.A.</mark>, que possui unidades no Brasil inteiro.</p>
+        <p>Trabalho utilizando PHP com framework Laravel, MySQL, HTML5, CSS3, Bootstrap e outras ferramentas de Web Scraping.</p>
+
+      </article>
+
+      <article class="content-body text-justify">
+        <h3>Estagiária de Suporte Computacional</h3>
+        <p class="lead">UFSCAR, Sorocaba
+          <small class="text-muted">(Maio 2016 - Dezembro 2016)</small>
+        </p>
+        <p>Assistência para todo o campus da
+          <mark>UFSCAR Sorocaba</mark> na área de TI, documentação da rede física, manutenção de computadores e dos laboratórios
+          de informática.</p>
+
+      </article>
+
+      <a href="#academic" class="main-link display-4">&blacktriangledown;</a>
+
+    </div>
+
+    <hr>
+
+    <div id="academic" class="content-cell">
+
+      <h2 class="display-2 content-title">Formação Acadêmica</h2>
+
+      <article class="content-body text-justify">
+        <h3>Pós-Graduanda em Tecnologias e Inovações Web</h3>
+        <p class="lead">SENAC Sorocaba, Polo Santo Amaro
+          <small class="text-muted">(mar 2018 - presente)</small>
+        </p>
+        <p>Através dessa especialização tenho como objetivo me capacitar para todos os passos fundamentais do desenvolvimento
+          de software, com
+          <mark>tecnologias inovadoras</mark> e tendo como base os conceitos mais importantes da estrutura de um projeto Web.
+        </p>
+      </article>
+
+      <article class="content-body text-justify">
+        <h3>Tecnóloga em Análise e Desenvolvimento de Sistemas</h3>
+        <p class="lead">Faculdade de Tecnologia, Sorocaba
+          <small class="text-muted">(jan 2014 - dez 2016)</small>
+        </p>
+        <p>Graduação voltada para a capacitação do profissional que fará desde a modelagem a implementação de sistemas informacionais.
+          Durante o meu período na faculdade, realizei algumas atividades extracurriculares, como a monitoria de inglês e
+          a participação na maratona de programação.</p>
+        <h4>Atividades Extracurriculares</h4>
+        <ul>
+          <li>
+            <mark>Monitoria de Inglês Instrumental:</mark> Colaborei na monitoria da disciplina, dando auxílio à todos os alunos
+            da Instituição. Com essa experiência, pude me aprofundar em um dos tópicos que encontro dificuldade: a escrita
+            em inglês.</li>
+          <li>Maratona de Programação: Competição InterFatecs 2015</li>
+        </ul>
+      </article>
+
+      <a href="#skills" class="main-link display-4">&blacktriangledown;</a>
+
+    </div>
+
+    <hr>
+
+    <div id="skills" class="content-cell">
+
+      <h2 class="display-2 content-title">Habibilidades</h2>
+
+      <article class="content-body text-justify">
+        <h3>Inglês</h3>
+        <p>Em abril de 2015, realizei o teste de proficiência
+          <mark>TOEFL ITP</mark> na UFSCAR, campus Sorocaba, e alcancei a nota total de 603 pontos, com um QCE na classificação
+          B2. Segundo as descrições oficiais do teste TOEFL, correspondo ao
+          <mark>Independent User Vantage (Usuário Independente).</mark>
+        </p>
+      </article>
+
+      <article class="content-body text-justify">
+
+        <h3>Tecnologia</h3>
+
+        <div class="two-collumn">
+          <ul class="fa-ul">
+            <li>
+              <span class="fa-li">
+                <i class="fas fa-check-square text-success"></i>
+              </span>PHP</li>
+            <li>
+              <span class="fa-li">
+                <i class="fas fa-check-square text-success"></i>
+              </span>Web Scraping</li>
+            <li>
+              <span class="fa-li">
+                <i class="fas fa-check-square text-success"></i>
+              </span>HTML5 e CSS3</li>
+            <li>
+              <span class="fa-li">
+                <i class="fas fa-check-square text-success"></i>
+              </span>Bootstrap</li>
+            <li>
+              <span class="fa-li">
+                <i class="fas fa-check-square text-success"></i>
+              </span>MySQL</li>
+            <li>
+              <span class="fa-li">
+                <i class="fas fa-check-square text-success"></i>
+              </span>Laravel</li>
+            <li>
+              <span class="fa-li">
+                <i class="fas fa-check-square text-success"></i>
+              </span>Versionamento de código</li>
+            <li>
+              <span class="fa-li">
+                <i class="fas fa-check-square text-success"></i>
+              </span>Java</li>
+            <li>
+              <span class="fa-li">
+                <i class="fas fa-check-square text-success"></i>
+              </span>Android</li>
+            <li>
+              <span class="fa-li">
+                <i class="fas fa-check-square text-success"></i>
+              </span>Firebase</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="content-body text-justify">
+
+
+        <h3>Cursos online</h3>
+        <p>Em Julho de 2017 comecei a utilizar a plataforma do Alura de cursos online. Até o presente momento, já concluí 17
+          cursos na plataforma,
+          <mark>totalizando uma carga horária de 220 horas:</mark>
+        </p>
+        <h4>Carreiras concluídas</h4>
+        <ul>
+          <li>
+            <strong>Carreira Desenvolvedor Java</strong>
+            <ul>
+              <li>Java I: Primeiros passos</li>
+              <li>Java II: Orientação a Objetos</li>
+              <li>Java III: Principais APIs e bibliotecas</li>
+              <li>Java: Dominando as Collections</li>
+              <li>Java 8: Tire proveito dos novos recursos da linguagem</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Carreira Iniciante Back-end PHP</strong>
+            <ul>
+              <li>HTTP: Entendendo a web por baixo dos panos</li>
+              <li>PHP e MySQL I: Fundamentos para criar um sistema na Web</li>
+              <li>PHP e MySQL II: Cookies, sessões e mais recursos</li>
+              <li>MySQL I: Iniciando suas consultas</li>
+              <li>PHP I: Orientação a objetos com sua linguagem preferida</li>
+              <li>PHP II: Avançando com Orientação a objetos</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h4>Outros cursos</h4>
+        <ul>
+          <li>Git: Controle e compartilhe seu código</li>
+          <li>Refatorando na prática</li>
+          <li>HTML5 e CSS3 I: Suas primeiras páginas da Web</li>
+          <li>MySQL I: Iniciando suas consultas</li>
+          <li>Laravel: facilitando o desenvolvimento PHP</li>
+          <li>Windows: Introdução ao Prompt</li>
+          <li>Chrome DevTools: analise, inspecione e depura suas páginas Web</li>
+        </ul>
+
+      </article>
+
+    </div>
+
+    <footer class="mastfoot mt-auto">
+      <div class="d-flex flex-column">
+        <p class="text-uppercase">
+          <a href="https://github.com/fromnanda" target="_blank" class="p-2 content-link">GitHub</a>
+          <a href="mailto:ferreira.ap.fernanda@gmail.com" target="_blank" class="p-2 content-link">Email</a>
+          <a href="https://www.linkedin.com/in/fernandaaparecida/" target="_blank" class="p-2 content-link">Linkedin</a>
+        </p>
+      </div>
+
+      <p>
+        Sorocaba &COPY; 2018
         <br>
-        <a href="mailto:ferreira.aparecidaf@gmail.com" target="_blank">
-            <i class="fas fa-at"></i>
-        </a>
+        <a href="#top">Voltar ao topo &blacktriangle;</a>
+      </p>
+    </footer>
 
-        <a href="https://github.com/fromnanda" target="_blank">
-            <i class="fab fa-github"></i>
-        </a>
+  </div>
 
-        <a href="https://www.linkedin.com/in/fernandaaparecida/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-        </a>
-    </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-        crossorigin="anonymous"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
