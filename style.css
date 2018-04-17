@@ -90,8 +90,8 @@ h6 {
     margin-bottom: 1.5rem;
 }
 
-.btn {
-    background: #1fc8db;
+.working-on-tech {
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     border: none;
     color: #FFF;
     padding: 16px 32px;
@@ -101,10 +101,6 @@ h6 {
     transition: 0.3s;
 }
 
-.btn:hover {
-    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
-    color: #fff;
-}
 
 /*
  * Header
@@ -144,7 +140,7 @@ mark {
 }
 
 .working-on,
-.working-on .btn {
+.working-on-tech {
     width: 100%;
 }
 
@@ -218,7 +214,7 @@ li,
         font-size: 4rem;
     }
     .working-on,
-    .working-on .btn {
+    .working-on-tech {
         width: fit-content;
     }
 }
@@ -248,7 +244,7 @@ li,
     .fa-3x {
         font-size: 6em !important;
     }
-    .btn {
+    .working-on-tech {
         padding: 25px 50px;
     }
     ul,
@@ -265,7 +261,7 @@ li,
     .cover-container {
         max-width: 90rem;
     }
-    .btn {
+    .working-on-tech {
         padding: 25px 50px;
         font-size: 2em !important;
     }
@@ -293,8 +289,7 @@ li,
     .fa-ul {
         font-size: 2.5rem;
     }
-
     footer {
-      font-size: 2.5rem;
-  }
+        font-size: 2.5rem;
+    }
 }
