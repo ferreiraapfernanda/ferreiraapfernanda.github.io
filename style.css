@@ -55,7 +55,6 @@ section {
     font-size: 1em;
 }
 
-
 .skills-title {
     font-weight: 700;
     text-transform: uppercase;
@@ -88,7 +87,8 @@ footer {
 }
 
 img {
-    width: 80px;
+    width: 100%;
+    max-width: 60px;
 }
 
 .main {
@@ -101,6 +101,7 @@ img {
         font-size: 1em;
         margin-bottom: 1em;
     }
+
 }
 
 @media only screen and (max-width: 466px) {
@@ -121,6 +122,8 @@ img {
         font-size: 3em;
     }
 
-    
+    img {
+        max-width: 40px;
+    }
     
 }
